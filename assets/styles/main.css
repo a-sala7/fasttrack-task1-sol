@@ -1,0 +1,43 @@
+@font-face {
+    font-family: inter;
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+    font-family: inter;
+    background-color: #fffcf9;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1090px;
+    padding: 0 2rem;
+}
+
+header {
+    margin-top: 2rem;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.nav-logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 430px;
+}
+.navbar a {
+    color: #66656a;
+    text-decoration: none;
+}
+.navbar a:visited {
+    color: #66656a;
+}
